@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+.bg {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border: solid green 1px;
+}
+.bgtes {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border: solid gray 1px;
+}
+body {
+    border: dotted darkblue 1px; 
+}
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="bgtes">
+            <div class="box" id="tes">Tes</div>
+            <div class="box" id="one">One</div>
+            <div class="box" id="two">Two</div>
+            <div class="box" id="three">Three</div>
+            <div class="box" id="four">Four</div>
+        </div>
+    </div>
+</body>
+</html>
