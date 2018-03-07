@@ -579,7 +579,7 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     position: relative;
-    border: solid skyblue 1px;
+    /* border: solid skyblue 1px; */
     z-index: 6;
     background-color: #fff;
 }
@@ -963,7 +963,7 @@
   }
   #wrapper #section4 {
       position: relative;
-      border: solid salmon 1px;
+      /* border: solid salmon 1px; */
       z-index: 5;
       background-color: #fff;
   }
@@ -1129,7 +1129,7 @@
 }
 #wrapper #section5 {
     background: #fff;
-    border: solid green 1px;
+    /* border: solid green 1px; */
     position: relative;
     z-index: 4;
     margin-left: 300px;
@@ -1352,7 +1352,7 @@ ul.slider>li img {
     padding-right: 100px !important;
     background: #f5f4ed;
     position: relative;
-    border: solid sandybrown 1px;
+    /* border: solid sandybrown 1px; */
     z-index: 3;
 }
 #wrapper footer .contact-head h2 {
